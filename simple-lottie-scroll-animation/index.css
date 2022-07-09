@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --percentage: 0%;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Kosugi', sans-serif;
+  font-size: 20px;
+  height: 600vh;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.sticky {
+  height: 100vh;
+  opacity: 1;
+  position: fixed;
+  transition: all 1.2s;
+  width: 100vw;
+}

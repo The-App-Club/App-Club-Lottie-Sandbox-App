@@ -1,0 +1,43 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+button {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.button-message {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+button::before {
+  content: '\e038';
+  font-family: 'Material Icons';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #0a0a0a;
+}
+button.play::before {
+  content: '\e038';
+}
+button.pause::before {
+  content: '\e035';
+}

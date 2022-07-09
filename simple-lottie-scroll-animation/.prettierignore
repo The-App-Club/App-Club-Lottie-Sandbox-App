@@ -1,0 +1,9 @@
+images/*
+.gitignore
+.prettierignore
+.gitkeep
+*jpg
+*png
+*svg
+.stylelintignore
+yarn.lock
