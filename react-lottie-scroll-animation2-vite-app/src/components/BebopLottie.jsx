@@ -1,10 +1,8 @@
-import {css, cx} from '@emotion/css';
+import {css} from '@emotion/css';
 import animationData from '../lotties/77-im-thirsty.json';
-import lottie from 'lottie-web/build/player/lottie';
-import {useCallback, useEffect, useLayoutEffect, useMemo, useRef} from 'react';
+import {useEffect, useMemo, useRef} from 'react';
 import gsap from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
-import Lottie from 'lottie-react';
 import {useLottie, useLottieInteractivity} from 'lottie-react';
 
 const BebopLottie = () => {
