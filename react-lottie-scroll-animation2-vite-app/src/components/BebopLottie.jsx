@@ -10,6 +10,7 @@ import {useLottie, useLottieInteractivity} from 'lottie-react';
 const BebopLottie = () => {
   const itemDomRef = useRef(null);
 
+  // https://lottiereact.com/hooks/useLottie#params
   const {goToAndStop, animationContainerRef, View, animationItem} = useLottie(
     {
       animationData,
